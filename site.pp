@@ -3,7 +3,7 @@ class { 'ssh_hardening': }
 
 
 accounts::user { 'bob':
-  ensure: 'absent',
+  ensure => 'absent',
 }
 
 accounts::user { 'pookey':
