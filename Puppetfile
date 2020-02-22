@@ -1,0 +1,8 @@
+mod 'puppetlabs/stdlib'
+mod 'herculesteam/augeasproviders_core'
+mod 'herculesteam/augeasproviders_sysctl'
+mod 'saz/ssh'
+mod 'puppetlabs/concat'
+mod 'puppetlabs/translate'
+mod 'hardening-ssh_hardening', '1.0.5'
+mod 'hardening-os_hardening', '2.2.7'
