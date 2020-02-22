@@ -1,5 +1,7 @@
 class { 'os_hardening': }
-class { 'ssh_hardening': }
+class { 'ssh_hardening':
+  use_pam => true, 
+}
 
 accounts::user { 'pookey':
   comment => 'Ian P. Christian',
