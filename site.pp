@@ -4,7 +4,6 @@ class { 'ssh_hardening': }
 accounts::user { 'pookey':
   comment => 'Ian P. Christian',
   groups  => [
-    'admin',
     'wheel',
   ],
   sshkeys => [
