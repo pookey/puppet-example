@@ -2,7 +2,7 @@ class { 'os_hardening': }
 class { 'ssh_hardening': }
 
 
-accounts::user { 'bob':
+accounts::user { 'ec2-user':
   ensure => 'absent',
 }
 
@@ -11,8 +11,6 @@ accounts::user { 'pookey':
   groups  => [
     'admin',
     'wheel',
-    'sudo',
-    'sudonopw',
   ],
   uid     => '1001',
   gid     => '1001',
