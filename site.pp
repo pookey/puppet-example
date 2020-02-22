@@ -6,7 +6,7 @@ class { 'sudo': }
 
 sudo::conf { 'wheel':
   priority => 10,
-  content  => '%admins ALL=(ALL) NOPASSWD: ALL',
+  content  => '%wheel ALL=(ALL) NOPASSWD: ALL',
 }
 
 
