@@ -2,6 +2,8 @@
 classes:
   - os_hardening
   - ssh_hardening
+  - '::accounts'
+  - 'sudo'
 
 ssh_hardening:
   use_pam: true
