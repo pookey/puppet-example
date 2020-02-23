@@ -1,4 +1,11 @@
 ---
+classes:
+  - os_hardening
+  - ssh_hardening
+
+ssh_hardening:
+  use_pam: true
+
 
 sudo::configs:
   admins:

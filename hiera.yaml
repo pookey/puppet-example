@@ -2,5 +2,8 @@
 version: 5
 hierarchy:
 
+  - name: "nodetype configuration"
+    path: "nodetype/%{nodetype}.yaml"
+
   - name: "Global configuration"
     path: "global.yaml"

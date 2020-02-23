@@ -1,9 +1,7 @@
 node default {
 
-  class { 'os_hardening': }
-  class { 'ssh_hardening':
-    use_pam => true, 
-  }
+  lookup('classes', Array[String], 'unique').include
+
   include ::accounts
   include sudo
 
