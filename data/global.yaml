@@ -5,8 +5,7 @@ classes:
   - '::accounts'
   - 'sudo'
 
-ssh_hardening:
-  use_pam: true
+ssh_hardening::use_pam: true
 
 
 sudo::configs:
